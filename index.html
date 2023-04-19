@@ -8,18 +8,36 @@
     <title>Search</title>
 </head>
 <body>
-    <header>
-        <a href="https://mail.google.com/">Gmail</a>
-        <a href="#">Images</a>
-        <button id="login">Login</button>
+    <header id="header_index">
+        <a class="main_link" href="https://mail.google.com/">Gmail</a>
+        <a class="main_link" href="images.html">Images</a>
+        <button onclick="location.href='https://accounts.google.com/signin'" id="login">Sign in</button>
     </header>
     <img id="logo" alt="Google" src="src/images/logo.png" />
     <form action="https://www.google.com/search">
-        <input id="text" type="text" name="q">
+        <input id="search_bar" type="text" name="q">
         <div class="buttons">
             <input id="main" type="submit" value="Google Search">
             <input id="lucky" type="submit" value="I'm Feeling Lucky">
         </div>
     </form>
+    <footer>
+        <div id="country">
+            <p>Brazil</p>
+        </div>
+        <div id="wrapper">
+            <div class="links1">
+                <a class="secondary_link" href="https://about.google/">About</a>
+                <a class="secondary_link" href="https://ads.google.com/">Advertising</a>
+                <a class="secondary_link" href="https://smallbusiness.withgoogle.com">Business</a>
+                <a class="secondary_link" href="https://www.google.com/search/howsearchworks">How Search works</a> 
+            </div>
+            <div class="links2">
+                <a class="secondary_link" href="#">Settings</a>
+                <a class="secondary_link" href="https://policies.google.com/terms">Terms</a>
+                <a class="secondary_link" href="https://policies.google.com/privacy">Privacy</a>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
