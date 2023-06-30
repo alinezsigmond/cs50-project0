@@ -6,13 +6,15 @@
     align-items: center;
     margin-left: 88.5vw;
     font-family: Arial, Helvetica, sans-serif;
+    width: 320px;
+    float: right;
 }
 
 #logo {
     display: block;
     position: relative;
     margin: auto;
-    margin-top: 22vh;
+    padding-top: 22vh;
     width: 272px;
     height: 92px;
   }
@@ -123,18 +125,14 @@ a:hover {
     position: relative;
 }
 
-footer {
+.footer {
     background-color: #f2f2f2;
-    /* background-color: yellowgreen; */
-    width: 100%;
+    width: 99.5vw;
     height: 95px;
     font-family: arial,sans-serif;
     color: #70757a;
-    display: block;
-    float: none;
     position: absolute;
     bottom: 0;
-    margin-left: -8px;
 }
 
 #country {
@@ -164,5 +162,187 @@ footer {
     margin: 15px 30px;
     flex:1;
     margin-top: -1px;
+}
+
+#logo_advanced {
+    width: 74px;
+    height: 24px;
+    margin: 15px 12px;
+}
+
+.trace {
+    border-bottom: 1px solid #ebebeb;
+    margin-bottom: 20px;
+    
+}
+
+#advanced_title {
+    color: #d93025;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-left: 37px;
+    margin-top: 23px;
+    display: flex;
+    padding-bottom: 5px;
+}
+
+#advanced_subtitle {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #333333;
+    /* background-color: #1a73e8; */
+    margin-top: 8px;
+    margin-right: 0;
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.advanced_form {
+    display: inline;
+    line-height: 40px;
+    width: 42%;
+    justify-content: space-between;
     /* background-color: yellowgreen; */
+}
+
+label {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: #222;
+    margin-bottom: 15px;
+    margin-right: -40px;
+    /* vertical-align: middle; */
+    /* margin-left: 30px; */
+}
+
+.advanced_input {
+    float: right;
+    border-radius: 1px;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
+    height: 25px;
+    width: 565px;
+    padding-left: 10px;
+}
+
+.advanced_wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    margin: auto;
+    width: 96%;
+    /* background-color: turquoise; */
+}
+
+.instructions {
+    width: 45%;
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    color: #555;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    line-height: 17px;
+    /* background-color: yellow; */
+}
+
+#instructions_title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #777;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+.range {
+    float: inline-end;
+    width: 579px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+}
+
+.range label { 
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.form-select {
+    background-color: #f5f5f5;
+    color: #444;
+    border: 1px solid #dcdcdc;
+    cursor: default;
+    box-shadow: 0 1px 1px rgba(0,0,0,.1);
+    border-color: #c6c6c6;
+    width: 577px;
+    height: 27px;
+    float: right;
+    padding-left: 10px;
+}
+
+.instructions2 {
+    margin-top: 73px;
+    line-height: 30px;
+}
+
+#advanced_button {
+    background-image: -moz-linear-gradient(top,#4c8ffd,#4787ed);
+    background-color: #357ae8;
+    border: #2f5bb7;
+    box-shadow: none;
+    color: #FFF;
+    user-select: none;
+    height: 30px;
+    min-width: 120px;
+    float: right;
+    margin: 10px 0;
+    padding: 0 12px;
+    height:30px;
+    border-radius: 2px;
+    cursor: default;
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    white-space: nowrap;
+}
+
+#advanced_button:hover {
+    background-color: #357ae8;
+
+}
+
+.you_can_also {
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+    margin: 0 30px;
+    line-height: 18px;
+    margin-bottom: 30px;
+}
+
+.you_can_also p {
+    font-size: large;
+}
+
+.you_can_also a {
+    color: #2a39d1;
+    font-size: 13px;
+}
+
+.you_can_also a:visited {
+    color: #12c;
+}
+
+.advanced_footer {
+    background-color: #f2f2f2;
+    width: 100vw;
+    height: 95px;
+    font-family: arial,sans-serif;
+    color: #70757a;
+    display: block;
+    float: inline-end;
 }
